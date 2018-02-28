@@ -4,6 +4,7 @@ Plugin Name: VJMedia: Article License
 Description: Choose License for Article
 Version: 1.0
 Author: <a href="http://www.vjmedia.com.hk">VJMedia Technical Team</a>
+GitHub Plugin URI: https://github.com/VJMedia/vj-articlelicense
 */
 
 class vjlicense{
