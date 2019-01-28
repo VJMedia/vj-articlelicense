@@ -7,6 +7,8 @@ Author: <a href="http://www.vjmedia.com.hk">VJMedia Technical Team</a>
 GitHub Plugin URI: https://github.com/VJMedia/vj-articlelicense
 */
 
+defined('WPINC') || (header("location: /") && die());
+
 class vjlicense{
 	static public $license=array(
 		"cc:by-nc-nd" => array("name" => "Creative Commons 姓名標示-非商業性-禁止改作", "shortname" => "CC 非商業性-禁止改作", "cccode" => "by-nc-nd"),
