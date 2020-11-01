@@ -55,8 +55,8 @@ function license_options() {
 }
 
 function vjlicense_header() {
-	$css_url = get_bloginfo("wpurl") . "/wp-content/plugins/vj-license/vj-license.css"; 	 
-	echo "<link rel=\"stylesheet\" href=\"${css_url}\" />";
+	/* $css_url = get_bloginfo("wpurl") . "/wp-content/plugins/vj-license/vj-license.css"; 	 
+	echo "<link rel=\"stylesheet\" href=\"${css_url}\" />"; */
 	add_meta_box('vj_license_control', '授權', 'license_options', 'post', 'normal', 'high');
 }
 
